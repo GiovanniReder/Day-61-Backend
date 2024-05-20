@@ -25,6 +25,8 @@ public class ES1 {
         return stringInput + numeroInput;
     }
     String[] arrayString = {"primo", "secondo", "terzo", "quarto", "quinto"};
+    String testo= "sesto";
+  //  public static String()
 }
 
 

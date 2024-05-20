@@ -12,8 +12,10 @@ public class ES2 {
 
         System.out.println("User inserisci qui la tua terza stringa ");
         String terzaStringa = sc.nextLine();
+
         String concatenazionePotente= primaStringa + secondaStringa + terzaStringa;
         System.out.println("stringhe inserite " + concatenazionePotente  );
+        
         String concatenazioneInversa= terzaStringa + secondaStringa + primaStringa;
         System.out.println("stringhe inserite " + concatenazioneInversa  );
 
