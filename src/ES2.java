@@ -15,7 +15,7 @@ public class ES2 {
 
         String concatenazionePotente= primaStringa + secondaStringa + terzaStringa;
         System.out.println("stringhe inserite " + concatenazionePotente  );
-        
+
         String concatenazioneInversa= terzaStringa + secondaStringa + primaStringa;
         System.out.println("stringhe inserite " + concatenazioneInversa  );
 

@@ -24,9 +24,20 @@ public class ES1 {
     public static String concatena(String stringInput, int numeroInput){
         return stringInput + numeroInput;
     }
-    String[] arrayString = {"primo", "secondo", "terzo", "quarto", "quinto"};
-    String testo= "sesto";
-  //  public static String()
+    public static String[] insieme(String[] arrayString, String testo){
+        String [] newArray = new String[6];
+          newArray[0] = arrayString[0];
+          newArray[1] = arrayString[1];
+          newArray[2] = testo;
+          newArray[3] = arrayString[2];
+          newArray[4] = arrayString[3];
+          newArray[5] = arrayString[4];
+
+
+
+        return  newArray;
+
+    }
 }
 
 
